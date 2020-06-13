@@ -4,11 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Neuton:ital@1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 </head>
 <body>
 <header>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <img src="img/nutricion.img.jpg" width="30" height="30" class="d-inline-block align-top" alt="logo1" loading="lazy">nutricion 
+  <nav class="navbar navbar-expand-lg navbar-dark fondo">
+    <img src="img/nutricion.img.jpg" width="30" height="30" class="d-inline-block align-top" alt="logo1" loading="lazy">
     <h1 class="navbar-brand">nutricion.ej</h1>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -24,6 +28,10 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Libros</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">registro</a>
+          </li>
+          
       </ul>
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Busqueda" aria-label="Search">
@@ -34,24 +42,75 @@
   </nav>
 </header>
 <mein>
-  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-          <img src="img/nutri2.img" class="d-block w-100" alt="img1">
+        <img src="img/nutri2.img" class="d-block w-100 carusel" alt="img1">
       </div>
       <div class="carousel-item">
-        <img src="img/nutri3.vv.jpg" class="d-block w-100" alt="img2">
+        <img src="img/nutri3.vv.jpg" class="d-block w-100 carusel" alt="img2">
       </div>
       <div class="carousel-item">
-        <img src="img/nutricion4.jpg" class="d-block w-100" alt="img3">
+        <img src="img/nutricion4.jpg" class="d-block w-100 carusel" alt="img3">
       </div>
     </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+   
   </div>
+  <div class="container">
+  <div class="row">
+ 
+    <div class="col-12 col-md-8">
+<h1>¿Que es?</h1>
+<p>La nutrición es la ingesta de alimentos en relación con las necesidades dietéticas del organismo. Una buena nutrición (una dieta suficiente y equilibrada combinada con el ejercicio físico regular) es un elemento fundamental de la buena salud. Una mala nutrición puede reducir la inmunidad, aumentar la vulnerabilidad a las enfermedades, alterar el desarrollo físico y mental, y reducir la productividad.</p>
+<img src="img/nutri3.vv.jpg" alt="imagen5">
+<h2>nutricion saludable</h2>
+<p>La nutrición es salud, ya que al lograr una buena alimentación y una dieta saludable conseguirás una vida más sana y sin sobresaltos. Una buena nutrición depende fundamentalmente de que los hábitos alimenticios sean los adecuados en cada caso particular. Además, es importante que tomes mucho agua a diario, apartando las gaseosas y el alcohol para ocasiones esporádicas, tal como indican los buenos cursos de nutrición. Los hábitos alimenticios no sólo tienen que ver con el tipo de alimentos que ingerimos, sino también con las conductas y costumbres. Por eso, para empezar una vida sana debes modificar tus hábitos alimenticio.</p>
+<img src="img/nutrientes55.jpg" alt="img6" height="300">
+   </div>
+   <div class="col-12 col-md-4">
+  <h2>nutrientes ecenciales</h2>
+  <p>Ciertos nutrientes, como el hierro y el calcio, por ejemplo, se encuentran muy repartidos en alimentos como legumbres y verduras; sin embargo el organismo no los aprovecha tan óptimamente como cuando proceden de la carne y derivados y de la leche, respectivamente. Básicamente, los alimentos se agrupan en los siguientes grupos: energéticos, que incluyen los hidratos de carbono (CHO) y las grasas; plásticos (proteínas), que intervienen como constructores; y reguladores (vitaminas y minerales).
+  </p>
+  <img src="img/NUTRI99.jpg" alt="img7" height="200" >
+  <h2>Algunos alimentos</h2>
+  <p>
+  <h3>leche de avena</h3>puede remplazar la leche ya que esta no estan necesaia para nosotros de hay podemos ver la intolerancia a la lactosa
+  <h3>vegetales verdes</h3> espinaca,aguacate,brocoli nos puede ayudar a aportar proteinas
+  <h3>tortas de lentejas</h3>aporta los mismos carboidratos que la carne y otros productos animales
+   <h3> frutos secos</h3> almendras mani avellana nuez pistachero pasa nuez de brasil nos aporta proteinas
+   <h3> semillas</h3> (como las de chia de linaza  muchas mas estas tamien aportan proteinas )
+   <h3> frutas</h3> (naranja kiwi tambien aportan proteinas)
+  </p>
+  <video  src="video/videomaite - Acceso directo.lnk"controls class="img-fluid"></video>
+</div>
+</div>
+</div>
+
 </mein>
 <footer>
-
+<hr>
+<ul>
+  <li>valentina alvarez zea</li>
+  <li>instagram:vale_0813</li>
+  <li>facebook:vale alvarez</li>
+  <li>colegio parroquial carmelitano</li>
+</ul>
 </footer>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 </html>

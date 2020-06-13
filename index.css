@@ -1,0 +1,28 @@
+.carusel{
+height: 500px;
+font-family: 'Dancing Script', cursive;
+}
+h2{
+color: purple;
+font-family: 'Dancing Script', cursive;
+}
+h1{
+color: purple;
+font-family: 'Dancing Script', cursive;
+}
+p{
+color: black;
+font-family: 'Neuton', serif;
+}
+h3{
+color: blueviolet;
+font-family: 'Dancing Script', cursive;
+}
+footer{
+    Font-weight:bold;
+    background-color: rgb(224, 190, 203);
+    font-family: 'Pacifico', cursive;
+}
+.fondo{
+    background-color: rgb(224, 190, 203);
+}
