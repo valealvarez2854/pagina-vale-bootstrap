@@ -19,10 +19,11 @@ color: blueviolet;
 font-family: 'Dancing Script', cursive;
 }
 footer{
-    Font-weight:bold;
+    Font-Weight:bold;
     background-color: rgb(224, 190, 203);
     font-family: 'Pacifico', cursive;
 }
 .fondo{
     background-color: rgb(224, 190, 203);
+    font-family: 'Dancing Script', cursive;
 }
